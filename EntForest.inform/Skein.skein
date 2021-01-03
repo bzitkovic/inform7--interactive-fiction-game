@@ -1,0 +1,2822 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Skein rootNode="node-1">
+  <generator>Windows Inform 7 6M62</generator>
+  <activeNode nodeId="node-320"/>
+  <item nodeId="node-1">
+    <command xml:space="preserve">EntForest</command>
+    <result xml:space="preserve">EntForest&#x000A;An Interactive Fiction by Bruno&#x000A;Release 1 / Serial number 210103 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD&#x000A;&#x000A;GreenForest&#x000A;Oh you mighty warrior, you are finding yourself in the Green Forest, the home of the cure, potions, and all the thing dear to a man to survive in this cruel and harsh world! Maybe you can find courage and power here to defeat the evil creatures that stand in your way to the eternal life with the Ents!&#x000A;&#x000A;You can see Blue forest rising in the west and in the east there is a Cursed forest and the road you must take!&#x000A;&#x000A;You can see an Elixir of Courage, an Elixir of Peace, an Elixir of Inspiration, an ElvenKey and a Hole in the tree (closed) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">EntForest&#x000A;An Interactive Fiction by Bruno&#x000A;Release 1 / Serial number 210103 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD&#x000A;&#x000A;GreenForest&#x000A;Oh you mighty warior, you are finding yourself in the Green Forest, the home of the cure, potions, and all the thing dear to a man to survice in this cruel and harsh world!&#x000A;&#x000A;&gt;</commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-2"/>
+      <child nodeId="node-12"/>
+      <child nodeId="node-17"/>
+      <child nodeId="node-23"/>
+      <child nodeId="node-26"/>
+      <child nodeId="node-34"/>
+      <child nodeId="node-55"/>
+      <child nodeId="node-66"/>
+      <child nodeId="node-76"/>
+      <child nodeId="node-83"/>
+      <child nodeId="node-92"/>
+      <child nodeId="node-125"/>
+      <child nodeId="node-127"/>
+      <child nodeId="node-157"/>
+      <child nodeId="node-171"/>
+    </children>
+  </item>
+  <item nodeId="node-2">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-3"/>
+    </children>
+  </item>
+  <item nodeId="node-3">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-4"/>
+    </children>
+  </item>
+  <item nodeId="node-4">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-5"/>
+    </children>
+  </item>
+  <item nodeId="node-5">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-6"/>
+    </children>
+  </item>
+  <item nodeId="node-6">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-7"/>
+    </children>
+  </item>
+  <item nodeId="node-7">
+    <command xml:space="preserve">take cure</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-8"/>
+    </children>
+  </item>
+  <item nodeId="node-8">
+    <command xml:space="preserve">take</command>
+    <result xml:space="preserve">What do you want to take?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-9"/>
+    </children>
+  </item>
+  <item nodeId="node-9">
+    <command xml:space="preserve">inv</command>
+    <result xml:space="preserve">You are carrying nothing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-10"/>
+    </children>
+  </item>
+  <item nodeId="node-10">
+    <command xml:space="preserve">drop</command>
+    <result xml:space="preserve">What do you want to drop?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-11"/>
+    </children>
+  </item>
+  <item nodeId="node-11">
+    <command xml:space="preserve">go south</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-12">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">BlueForest&#x000A;You can find yourself in the Blue Forest where you see things of great value that can help you on your journey across the Cursed Forest. You can see a wooden desk with weapons that were forged in the eternal fires and cooled down in the freezing deeps of the northern sea! Maybe some friend can help you on your journey aswell?&#x000A;&#x000A;You can see Green forest rising in the east and Old Elven fortress standing in the south!&#x000A;&#x000A;You can see a Gates of fortress, Archer, Wizard, Swordsman, a Grass (closed) and a Wooden desk (closed) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-13"/>
+      <child nodeId="node-14"/>
+      <child nodeId="node-174"/>
+      <child nodeId="node-176"/>
+      <child nodeId="node-197"/>
+    </children>
+  </item>
+  <item nodeId="node-13">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">GreenForest&#x000A;Oh you mighty warrior, you are finding yourself in the Green Forest, the home of the cure, potions, and all the thing dear to a man to survive in this cruel and harsh world! Maybe you can find courage and power here to defeat the evil creatures that stand in your way to the eternal life with the Ents!&#x000A;&#x000A;You can see Blue forest rising in the west and in the east there is a Cursed forest and the road you must take!&#x000A;&#x000A;You can see an Elixir of Courage, an Elixir of Peace, an Elixir of Inspiration, an ElvenKey and a Hole in the tree (closed) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-308"/>
+    </children>
+  </item>
+  <item nodeId="node-308">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">BlueForest&#x000A;You can find yourself in the Blue Forest where you see things of great value that can help you on your journey across the Cursed Forest. You can see a wooden desk with weapons that were forged in the eternal fires and cooled down in the freezing deeps of the northern sea! Maybe some friend can help you on your journey aswell?&#x000A;&#x000A;You can see Green forest rising in the east and Old Elven fortress standing in the south!&#x000A;&#x000A;You can see a Gates of fortress, Archer, Wizard, Swordsman, a Grass (closed) and a Wooden desk (closed) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-309"/>
+    </children>
+  </item>
+  <item nodeId="node-309">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">GreenForest&#x000A;Oh you mighty warrior, you are finding yourself in the Green Forest, the home of the cure, potions, and all the thing dear to a man to survive in this cruel and harsh world! Maybe you can find courage and power here to defeat the evil creatures that stand in your way to the eternal life with the Ents!&#x000A;&#x000A;You can see Blue forest rising in the west and in the east there is a Cursed forest and the road you must take!&#x000A;&#x000A;You can see an Elixir of Courage, an Elixir of Peace, an Elixir of Inspiration, an ElvenKey and a Hole in the tree (closed) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-310"/>
+    </children>
+  </item>
+  <item nodeId="node-310">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">BlueForest&#x000A;You can find yourself in the Blue Forest where you see things of great value that can help you on your journey across the Cursed Forest. You can see a wooden desk with weapons that were forged in the eternal fires and cooled down in the freezing deeps of the northern sea! Maybe some friend can help you on your journey aswell?&#x000A;&#x000A;You can see Green forest rising in the east and Old Elven fortress standing in the south!&#x000A;&#x000A;You can see a Gates of fortress, Archer, Wizard, Swordsman, a Grass (closed) and a Wooden desk (closed) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-311"/>
+    </children>
+  </item>
+  <item nodeId="node-311">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">(first opening the Gates of fortress)&#x000A;&#x000A;OldElvenFortress&#x000A;Forgoten for ages, lost in the books, now only ruins remain of once great elven fortress. Mistery surrounds this place, ghost fly by you, but don't be scared, it's a peaceful place. Try to find something useful. It looks like there's still some weapons here that stood for ages and are stiill standing like the time stopped for them. Must be that Elves used some kind of magic on them. . . But be aware that while you look out for weapons your enemies grow stronger!&#x000A;&#x000A;You can see a Gates of fortress, White arrow, Green arrow, Black arrow and Stone grave (closed) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-312"/>
+    </children>
+  </item>
+  <item nodeId="node-312">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">BlueForest&#x000A;You can find yourself in the Blue Forest where you see things of great value that can help you on your journey across the Cursed Forest. You can see a wooden desk with weapons that were forged in the eternal fires and cooled down in the freezing deeps of the northern sea! Maybe some friend can help you on your journey aswell?&#x000A;&#x000A;You can see Green forest rising in the east and Old Elven fortress standing in the south!&#x000A;&#x000A;You can see a Gates of fortress, Archer, Wizard, Swordsman, a Grass (closed) and a Wooden desk (closed) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-313"/>
+    </children>
+  </item>
+  <item nodeId="node-313">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">OldElvenFortress&#x000A;Forgoten for ages, lost in the books, now only ruins remain of once great elven fortress. Mistery surrounds this place, ghost fly by you, but don't be scared, it's a peaceful place. Try to find something useful. It looks like there's still some weapons here that stood for ages and are stiill standing like the time stopped for them. Must be that Elves used some kind of magic on them. . . But be aware that while you look out for weapons your enemies grow stronger!&#x000A;&#x000A;You can see a Gates of fortress, White arrow, Green arrow, Black arrow and Stone grave (closed) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-314"/>
+    </children>
+  </item>
+  <item nodeId="node-314">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-315"/>
+    </children>
+  </item>
+  <item nodeId="node-315">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-316"/>
+    </children>
+  </item>
+  <item nodeId="node-316">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-317"/>
+    </children>
+  </item>
+  <item nodeId="node-317">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">BlueForest&#x000A;You can find yourself in the Blue Forest where you see things of great value that can help you on your journey across the Cursed Forest. You can see a wooden desk with weapons that were forged in the eternal fires and cooled down in the freezing deeps of the northern sea! Maybe some friend can help you on your journey aswell?&#x000A;&#x000A;You can see Green forest rising in the east and Old Elven fortress standing in the south!&#x000A;&#x000A;You can see a Gates of fortress, Archer, Wizard, Swordsman, a Grass (closed) and a Wooden desk (closed) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-318"/>
+    </children>
+  </item>
+  <item nodeId="node-318">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">GreenForest&#x000A;Oh you mighty warrior, you are finding yourself in the Green Forest, the home of the cure, potions, and all the thing dear to a man to survive in this cruel and harsh world! Maybe you can find courage and power here to defeat the evil creatures that stand in your way to the eternal life with the Ents!&#x000A;&#x000A;You can see Blue forest rising in the west and in the east there is a Cursed forest and the road you must take!&#x000A;&#x000A;You can see an Elixir of Courage, an Elixir of Peace, an Elixir of Inspiration, an ElvenKey and a Hole in the tree (closed) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-319"/>
+    </children>
+  </item>
+  <item nodeId="node-319">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">CursedForest&#x000A;Ground hasn't seen the ligh for ages, rivers stopped flowing and leaves mourn the life that was once here, but no more. Cursed is the place where you are. Be aware of going alone. Don't even try without right equipment. The Orcs on the branches fight until the end and guard the entrance of the forest. If you win the fight you will come across the Trolls that smash hard and fear no one! If you manage to get through all of that, only magic can save you becase Deamon from the deep, the almighty ghost that roams these forest is feared by all living things and no solid thing can hurt him!&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-320"/>
+    </children>
+  </item>
+  <item nodeId="node-320">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">GreenForest&#x000A;Oh you mighty warrior, you are finding yourself in the Green Forest, the home of the cure, potions, and all the thing dear to a man to survive in this cruel and harsh world! Maybe you can find courage and power here to defeat the evil creatures that stand in your way to the eternal life with the Ents!&#x000A;&#x000A;You can see Blue forest rising in the west and in the east there is a Cursed forest and the road you must take!&#x000A;&#x000A;You can see an Elixir of Courage, an Elixir of Peace, an Elixir of Inspiration, an ElvenKey and a Hole in the tree (closed) here.&#x000A;&#x000A;You will lose your life, don't risk it. Find the right items my friend!&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-14">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-15"/>
+    </children>
+  </item>
+  <item nodeId="node-15">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">GreenForest&#x000A;Oh you mighty warior, you are finding yourself in the Green Forest, the home of the cure, potions, and all the thing dear to a man to survive in this cruel and harsh world! Maybe you can find courage and power here to defeat the evil creatures that stand in your way to the eternal life with the Ents!&#x000A;&#x000A;Hmm . . . There is some key on the ground? Maybe some ancient people forgot about it. Must be to unlock something. It looks kinda elvish!&#x000A;&#x000A;You can also see an Elixir of Courage, an Elixir of Peace and a Hole in the wood (closed) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-16"/>
+    </children>
+  </item>
+  <item nodeId="node-16">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">GreenForest&#x000A;Oh you mighty warior, you are finding yourself in the Green Forest, the home of the cure, potions, and all the thing dear to a man to survive in this cruel and harsh world! Maybe you can find courage and power here to defeat the evil creatures that stand in your way to the eternal life with the Ents!&#x000A;&#x000A;Hmm . . . There is some key on the ground? Maybe some ancient people forgot about it. Must be to unlock something. It looks kinda elvish!&#x000A;&#x000A;You can also see an Elixir of Courage, an Elixir of Peace and a Hole in the wood (closed) here.&#x000A;&#x000A;You're not happy, you can't go north yet&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-174">
+    <command xml:space="preserve">open desk</command>
+    <result xml:space="preserve">It seems to be locked.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-175"/>
+    </children>
+  </item>
+  <item nodeId="node-175">
+    <command xml:space="preserve">take grasskey</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-176">
+    <command xml:space="preserve">look grass</command>
+    <result xml:space="preserve">That is some tall grass . . . Maybe there's snakes in it? Maybe some useful things. Should you look inside?&#x000A;&#x000A;In the Grass is a GrassKey.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-177"/>
+    </children>
+  </item>
+  <item nodeId="node-177">
+    <command xml:space="preserve">open grass</command>
+    <result xml:space="preserve">That's already open.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-178"/>
+    </children>
+  </item>
+  <item nodeId="node-178">
+    <command xml:space="preserve">take GrassKey</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-179"/>
+    </children>
+  </item>
+  <item nodeId="node-179">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">GreenForest&#x000A;Oh you mighty warior, you are finding yourself in the Green Forest, the home of the cure, potions, and all the thing dear to a man to survive in this cruel and harsh world! Maybe you can find courage and power here to defeat the evil creatures that stand in your way to the eternal life with the Ents!&#x000A;&#x000A;You can see an Elixir of Courage, an Elixir of Peace, an Elixir of Inspiration, an ElvenKey and a Hole in the wood (closed) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-180"/>
+    </children>
+  </item>
+  <item nodeId="node-180">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">BlueForest&#x000A;You can find yourself in the Blue Forest where you see things of great value that can help you on your journey across the Cursed Forest. You can see a wooden desk with weapons that were forged in the eternal fires and cooled down in the freezing deeps of the northern sea! Maybe some friend can help you on your journey aswell?&#x000A;&#x000A;You can see Archer, Wizard, Swordsman, a Grass (empty) and a Wooden desk (closed) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-181"/>
+    </children>
+  </item>
+  <item nodeId="node-181">
+    <command xml:space="preserve">look grass</command>
+    <result xml:space="preserve">That is some tall grass . . . Maybe there's snakes in it? Maybe some useful things. Should you look inside?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-182"/>
+    </children>
+  </item>
+  <item nodeId="node-182">
+    <command xml:space="preserve">open grass</command>
+    <result xml:space="preserve">That's already open.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-183"/>
+    </children>
+  </item>
+  <item nodeId="node-183">
+    <command xml:space="preserve">open Grass</command>
+    <result xml:space="preserve">That's already open.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-184"/>
+    </children>
+  </item>
+  <item nodeId="node-184">
+    <command xml:space="preserve">enter grass</command>
+    <result xml:space="preserve">That's not something you can enter.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-185"/>
+    </children>
+  </item>
+  <item nodeId="node-185">
+    <command xml:space="preserve">open desk</command>
+    <result xml:space="preserve">It seems to be locked.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-186"/>
+    </children>
+  </item>
+  <item nodeId="node-186">
+    <command xml:space="preserve">take key</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-187"/>
+    </children>
+  </item>
+  <item nodeId="node-187">
+    <command xml:space="preserve">take GrassKey</command>
+    <result xml:space="preserve">You already have that.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-188"/>
+    </children>
+  </item>
+  <item nodeId="node-188">
+    <command xml:space="preserve">open Grass</command>
+    <result xml:space="preserve">That's already open.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-189"/>
+    </children>
+  </item>
+  <item nodeId="node-189">
+    <command xml:space="preserve">look grass</command>
+    <result xml:space="preserve">That is some tall grass . . . Maybe there's snakes in it? Maybe some useful things. Should you look inside?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-190"/>
+    </children>
+  </item>
+  <item nodeId="node-190">
+    <command xml:space="preserve">open grass</command>
+    <result xml:space="preserve">That's already open.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-191"/>
+    </children>
+  </item>
+  <item nodeId="node-191">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">GreenForest&#x000A;Oh you mighty warior, you are finding yourself in the Green Forest, the home of the cure, potions, and all the thing dear to a man to survive in this cruel and harsh world! Maybe you can find courage and power here to defeat the evil creatures that stand in your way to the eternal life with the Ents!&#x000A;&#x000A;You can see an Elixir of Courage, an Elixir of Peace, an Elixir of Inspiration, an ElvenKey and a Hole in the wood (closed) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-192"/>
+    </children>
+  </item>
+  <item nodeId="node-192">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">BlueForest&#x000A;You can find yourself in the Blue Forest where you see things of great value that can help you on your journey across the Cursed Forest. You can see a wooden desk with weapons that were forged in the eternal fires and cooled down in the freezing deeps of the northern sea! Maybe some friend can help you on your journey aswell?&#x000A;&#x000A;You can see Archer, Wizard, Swordsman, a Grass (empty) and a Wooden desk (closed) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-193"/>
+    </children>
+  </item>
+  <item nodeId="node-193">
+    <command xml:space="preserve">see Grass</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-194"/>
+    </children>
+  </item>
+  <item nodeId="node-194">
+    <command xml:space="preserve">watch Grass</command>
+    <result xml:space="preserve">That is some tall grass . . . Maybe there's snakes in it? Maybe some useful things. Should you look inside?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-195"/>
+    </children>
+  </item>
+  <item nodeId="node-195">
+    <command xml:space="preserve">open Grass</command>
+    <result xml:space="preserve">That's already open.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-196"/>
+    </children>
+  </item>
+  <item nodeId="node-196">
+    <command xml:space="preserve">open grass</command>
+    <result xml:space="preserve">That's already open.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-197">
+    <command xml:space="preserve">open grass</command>
+    <result xml:space="preserve">You open the Grass, revealing a GrassKey.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-198"/>
+    </children>
+  </item>
+  <item nodeId="node-198">
+    <command xml:space="preserve">look grass</command>
+    <result xml:space="preserve">That is some tall grass . . . Maybe there's snakes in it? Maybe some useful things. Should you look inside?&#x000A;&#x000A;In the Grass is a GrassKey.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-199"/>
+    </children>
+  </item>
+  <item nodeId="node-199">
+    <command xml:space="preserve">unlock desk</command>
+    <result xml:space="preserve">What do you want to unlock the Wooden desk with?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-200"/>
+    </children>
+  </item>
+  <item nodeId="node-200">
+    <command xml:space="preserve">take key</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-201"/>
+    </children>
+  </item>
+  <item nodeId="node-201">
+    <command xml:space="preserve">open grass</command>
+    <result xml:space="preserve">That's already open.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-202"/>
+    </children>
+  </item>
+  <item nodeId="node-202">
+    <command xml:space="preserve">take GrassKey</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-203"/>
+    </children>
+  </item>
+  <item nodeId="node-203">
+    <command xml:space="preserve">open desk</command>
+    <result xml:space="preserve">It seems to be locked.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-204"/>
+    </children>
+  </item>
+  <item nodeId="node-204">
+    <command xml:space="preserve">unlock desk</command>
+    <result xml:space="preserve">(with the GrassKey)&#x000A;You unlock the Wooden desk.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-205"/>
+    </children>
+  </item>
+  <item nodeId="node-205">
+    <command xml:space="preserve">look desk</command>
+    <result xml:space="preserve">Oh those wooden desks of old . . .  You can smell the power and greatness that they hold!&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-206"/>
+    </children>
+  </item>
+  <item nodeId="node-206">
+    <command xml:space="preserve">look desk</command>
+    <result xml:space="preserve">Oh those wooden desks of old . . .  You can smell the power and greatness that they hold!&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-207"/>
+    </children>
+  </item>
+  <item nodeId="node-207">
+    <command xml:space="preserve">open desk</command>
+    <result xml:space="preserve">You open the Wooden desk, revealing White staff, Green staff and Black staff.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-208"/>
+    </children>
+  </item>
+  <item nodeId="node-208">
+    <command xml:space="preserve">look white</command>
+    <result xml:space="preserve">Those magical white staff must be for something evil and demonic!&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-209"/>
+    </children>
+  </item>
+  <item nodeId="node-209">
+    <command xml:space="preserve">look green</command>
+    <result xml:space="preserve">Those magical green staff must be for something greeen and peaceful!&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-210"/>
+    </children>
+  </item>
+  <item nodeId="node-210">
+    <command xml:space="preserve">look black</command>
+    <result xml:space="preserve">Those magical black staff must be for something that's in the mines, it's so dusty . . .&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-211"/>
+    </children>
+  </item>
+  <item nodeId="node-211">
+    <command xml:space="preserve">open Gates</command>
+    <result xml:space="preserve">You open the Gates of fortress.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-212"/>
+    </children>
+  </item>
+  <item nodeId="node-212">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">OldElvenFortress&#x000A;Forgoten for ages, lost in the books, now only ruins remain of once great elven fortress. Mistery surrounds this place, ghost fly by you, but don't be scared, it's a peaceful place. Try to find something useful. It looks like there's still some weapons here that stood for ages and are stiill standing like the time stopped for them. Must be that Elves used some kind of magic on them. . . But be aware that while you look out for weapons you're enemies grow stronger!&#x000A;&#x000A;You can see a Gates of fortress, White arrow, Green arrow, Black arrow and Stone grave (closed) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-213"/>
+    </children>
+  </item>
+  <item nodeId="node-213">
+    <command xml:space="preserve">a</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-214"/>
+    </children>
+  </item>
+  <item nodeId="node-214">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-215"/>
+    </children>
+  </item>
+  <item nodeId="node-215">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">BlueForest&#x000A;You can find yourself in the Blue Forest where you see things of great value that can help you on your journey across the Cursed Forest. You can see a wooden desk with weapons that were forged in the eternal fires and cooled down in the freezing deeps of the northern sea! Maybe some friend can help you on your journey aswell?&#x000A;&#x000A;You can see a Gates of fortress, Archer, Wizard, Swordsman, a Grass (empty) and a Wooden desk (in which are White staff, Green staff and Black staff) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-216"/>
+    </children>
+  </item>
+  <item nodeId="node-216">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">OldElvenFortress&#x000A;Forgoten for ages, lost in the books, now only ruins remain of once great elven fortress. Mistery surrounds this place, ghost fly by you, but don't be scared, it's a peaceful place. Try to find something useful. It looks like there's still some weapons here that stood for ages and are stiill standing like the time stopped for them. Must be that Elves used some kind of magic on them. . . But be aware that while you look out for weapons you're enemies grow stronger!&#x000A;&#x000A;You can see a Gates of fortress, White arrow, Green arrow, Black arrow and Stone grave (closed) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-217"/>
+    </children>
+  </item>
+  <item nodeId="node-217">
+    <command xml:space="preserve">close gates</command>
+    <result xml:space="preserve">You close the Gates of fortress.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-218"/>
+    </children>
+  </item>
+  <item nodeId="node-218">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">(first opening the Gates of fortress)&#x000A;&#x000A;BlueForest&#x000A;You can find yourself in the Blue Forest where you see things of great value that can help you on your journey across the Cursed Forest. You can see a wooden desk with weapons that were forged in the eternal fires and cooled down in the freezing deeps of the northern sea! Maybe some friend can help you on your journey aswell?&#x000A;&#x000A;You can see a Gates of fortress, Archer, Wizard, Swordsman, a Grass (empty) and a Wooden desk (in which are White staff, Green staff and Black staff) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-219"/>
+    </children>
+  </item>
+  <item nodeId="node-219">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">OldElvenFortress&#x000A;Forgoten for ages, lost in the books, now only ruins remain of once great elven fortress. Mistery surrounds this place, ghost fly by you, but don't be scared, it's a peaceful place. Try to find something useful. It looks like there's still some weapons here that stood for ages and are stiill standing like the time stopped for them. Must be that Elves used some kind of magic on them. . . But be aware that while you look out for weapons you're enemies grow stronger!&#x000A;&#x000A;You can see a Gates of fortress, White arrow, Green arrow, Black arrow and Stone grave (closed) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-220"/>
+    </children>
+  </item>
+  <item nodeId="node-220">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">BlueForest&#x000A;You can find yourself in the Blue Forest where you see things of great value that can help you on your journey across the Cursed Forest. You can see a wooden desk with weapons that were forged in the eternal fires and cooled down in the freezing deeps of the northern sea! Maybe some friend can help you on your journey aswell?&#x000A;&#x000A;You can see a Gates of fortress, Archer, Wizard, Swordsman, a Grass (empty) and a Wooden desk (in which are White staff, Green staff and Black staff) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-221"/>
+    </children>
+  </item>
+  <item nodeId="node-221">
+    <command xml:space="preserve">close gates</command>
+    <result xml:space="preserve">You close the Gates of fortress.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-222"/>
+    </children>
+  </item>
+  <item nodeId="node-222">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">(first opening the Gates of fortress)&#x000A;&#x000A;OldElvenFortress&#x000A;Forgoten for ages, lost in the books, now only ruins remain of once great elven fortress. Mistery surrounds this place, ghost fly by you, but don't be scared, it's a peaceful place. Try to find something useful. It looks like there's still some weapons here that stood for ages and are stiill standing like the time stopped for them. Must be that Elves used some kind of magic on them. . . But be aware that while you look out for weapons you're enemies grow stronger!&#x000A;&#x000A;You can see a Gates of fortress, White arrow, Green arrow, Black arrow and Stone grave (closed) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-223"/>
+    </children>
+  </item>
+  <item nodeId="node-223">
+    <command xml:space="preserve">look gates</command>
+    <result xml:space="preserve">You see nothing special about the Gates of fortress.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-224"/>
+    </children>
+  </item>
+  <item nodeId="node-224">
+    <command xml:space="preserve">look white</command>
+    <result xml:space="preserve">Maybe you can see enemies in the dark with white arrow.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-225"/>
+    </children>
+  </item>
+  <item nodeId="node-225">
+    <command xml:space="preserve">look black</command>
+    <result xml:space="preserve">If you need defence against stone giants, there is nothing better than black arrow!&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-226"/>
+    </children>
+  </item>
+  <item nodeId="node-226">
+    <command xml:space="preserve">look green</command>
+    <result xml:space="preserve">Hmm . . . There is saying that green arrow can be good for aiming high!&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-227"/>
+    </children>
+  </item>
+  <item nodeId="node-227">
+    <command xml:space="preserve">open grave</command>
+    <result xml:space="preserve">You open Stone grave, revealing White sword, Green sword and Black sword.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-228"/>
+    </children>
+  </item>
+  <item nodeId="node-228">
+    <command xml:space="preserve">look white</command>
+    <result xml:space="preserve">(White arrow)&#x000A;Maybe you can see enemies in the dark with white arrow.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-229"/>
+    </children>
+  </item>
+  <item nodeId="node-229">
+    <command xml:space="preserve">look green</command>
+    <result xml:space="preserve">(Green arrow)&#x000A;Hmm . . . There is saying that green arrow can be good for aiming high!&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-230"/>
+    </children>
+  </item>
+  <item nodeId="node-230">
+    <command xml:space="preserve">look black</command>
+    <result xml:space="preserve">(Black arrow)&#x000A;If you need defence against stone giants, there is nothing better than black arrow!&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-231"/>
+    </children>
+  </item>
+  <item nodeId="node-231">
+    <command xml:space="preserve">look whte sword</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-232"/>
+    </children>
+  </item>
+  <item nodeId="node-232">
+    <command xml:space="preserve">look White sword</command>
+    <result xml:space="preserve">White swords were carried by the kings of old. The high lords of Elves and keepers of the peace.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-233"/>
+    </children>
+  </item>
+  <item nodeId="node-233">
+    <command xml:space="preserve">look white sword</command>
+    <result xml:space="preserve">White swords were carried by the kings of old. The high lords of Elves and keepers of the peace.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-234"/>
+    </children>
+  </item>
+  <item nodeId="node-234">
+    <command xml:space="preserve">look green sword</command>
+    <result xml:space="preserve">Green sword is said to be worn be the Quens of might and magic!&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-235"/>
+    </children>
+  </item>
+  <item nodeId="node-235">
+    <command xml:space="preserve">look black sword</command>
+    <result xml:space="preserve">Black sword is the one that all Orcs fear and flee before it!&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-236"/>
+    </children>
+  </item>
+  <item nodeId="node-236">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-237"/>
+    </children>
+  </item>
+  <item nodeId="node-237">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-238"/>
+    </children>
+  </item>
+  <item nodeId="node-238">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">BlueForest&#x000A;You can find yourself in the Blue Forest where you see things of great value that can help you on your journey across the Cursed Forest. You can see a wooden desk with weapons that were forged in the eternal fires and cooled down in the freezing deeps of the northern sea! Maybe some friend can help you on your journey aswell?&#x000A;&#x000A;You can see a Gates of fortress, Archer, Wizard, Swordsman, a Grass (empty) and a Wooden desk (in which are White staff, Green staff and Black staff) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-239"/>
+    </children>
+  </item>
+  <item nodeId="node-239">
+    <command xml:space="preserve">inv</command>
+    <result xml:space="preserve">You are carrying:&#x000A;  a GrassKey&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-240"/>
+    </children>
+  </item>
+  <item nodeId="node-240">
+    <command xml:space="preserve">close deks</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-241"/>
+    </children>
+  </item>
+  <item nodeId="node-241">
+    <command xml:space="preserve">close desk</command>
+    <result xml:space="preserve">You close the Wooden desk.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-242"/>
+    </children>
+  </item>
+  <item nodeId="node-242">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">BlueForest&#x000A;You can find yourself in the Blue Forest where you see things of great value that can help you on your journey across the Cursed Forest. You can see a wooden desk with weapons that were forged in the eternal fires and cooled down in the freezing deeps of the northern sea! Maybe some friend can help you on your journey aswell?&#x000A;&#x000A;You can see a Gates of fortress, Archer, Wizard, Swordsman, a Grass (empty) and a Wooden desk (closed) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-243"/>
+    </children>
+  </item>
+  <item nodeId="node-243">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">GreenForest&#x000A;Oh you mighty warior, you are finding yourself in the Green Forest, the home of the cure, potions, and all the thing dear to a man to survive in this cruel and harsh world! Maybe you can find courage and power here to defeat the evil creatures that stand in your way to the eternal life with the Ents!&#x000A;&#x000A;You can see an Elixir of Courage, an Elixir of Peace, an Elixir of Inspiration, an ElvenKey and a Hole in the wood (closed) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-244"/>
+    </children>
+  </item>
+  <item nodeId="node-244">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">CursedForest&#x000A;Ground hasn't seen the ligh for ages, rivers stopped flowing and leaves mourn the life that was once here, but no more. Cursed is the place where you are. Be aware of going alone. Don't even try without right equipment. The Orcs on the branches fight until the end and guard the entrance of the forest. If you win the fight you will come across the Trolls that smash hard and fear no one! If you manage to get through all of that, only magic can save you becase Deamon from the deep, the almighty ghost that roams these forest is feared by all living things and no solid thing can hurt him!&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-245"/>
+    </children>
+  </item>
+  <item nodeId="node-245">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">BlueForest&#x000A;You can find yourself in the Blue Forest where you see things of great value that can help you on your journey across the Cursed Forest. You can see a wooden desk with weapons that were forged in the eternal fires and cooled down in the freezing deeps of the northern sea! Maybe some friend can help you on your journey aswell?&#x000A;&#x000A;You can see a Gates of fortress, Archer, Wizard, Swordsman, a Grass (empty) and a Wooden desk (closed) here.&#x000A;&#x000A;You will lose your life, don't risk it. Find the right items my friend!&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-246"/>
+    </children>
+  </item>
+  <item nodeId="node-246">
+    <command xml:space="preserve">open desk</command>
+    <result xml:space="preserve">You open the Wooden desk, revealing White staff, Green staff and Black staff.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-247"/>
+    </children>
+  </item>
+  <item nodeId="node-247">
+    <command xml:space="preserve">take white staff</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-248"/>
+    </children>
+  </item>
+  <item nodeId="node-248">
+    <command xml:space="preserve">look gates</command>
+    <result xml:space="preserve">You see nothing special about the Gates of fortress.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-249"/>
+    </children>
+  </item>
+  <item nodeId="node-249">
+    <command xml:space="preserve">open gates</command>
+    <result xml:space="preserve">That's already open.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-250"/>
+    </children>
+  </item>
+  <item nodeId="node-250">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-251"/>
+    </children>
+  </item>
+  <item nodeId="node-251">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">OldElvenFortress&#x000A;Forgoten for ages, lost in the books, now only ruins remain of once great elven fortress. Mistery surrounds this place, ghost fly by you, but don't be scared, it's a peaceful place. Try to find something useful. It looks like there's still some weapons here that stood for ages and are stiill standing like the time stopped for them. Must be that Elves used some kind of magic on them. . . But be aware that while you look out for weapons you're enemies grow stronger!&#x000A;&#x000A;You can see a Gates of fortress, White arrow, Green arrow, Black arrow and Stone grave (in which are White sword, Green sword and Black sword) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-252"/>
+    </children>
+  </item>
+  <item nodeId="node-252">
+    <command xml:space="preserve">take green arrow</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-253"/>
+    </children>
+  </item>
+  <item nodeId="node-253">
+    <command xml:space="preserve">open grave</command>
+    <result xml:space="preserve">That's already open.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-254"/>
+    </children>
+  </item>
+  <item nodeId="node-254">
+    <command xml:space="preserve">take black sword</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-255"/>
+    </children>
+  </item>
+  <item nodeId="node-255">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-256"/>
+    </children>
+  </item>
+  <item nodeId="node-256">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">BlueForest&#x000A;You can find yourself in the Blue Forest where you see things of great value that can help you on your journey across the Cursed Forest. You can see a wooden desk with weapons that were forged in the eternal fires and cooled down in the freezing deeps of the northern sea! Maybe some friend can help you on your journey aswell?&#x000A;&#x000A;You can see a Gates of fortress, Archer, Wizard, Swordsman, a Grass (empty) and a Wooden desk (in which are Green staff and Black staff) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-257"/>
+    </children>
+  </item>
+  <item nodeId="node-257">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">GreenForest&#x000A;Oh you mighty warior, you are finding yourself in the Green Forest, the home of the cure, potions, and all the thing dear to a man to survive in this cruel and harsh world! Maybe you can find courage and power here to defeat the evil creatures that stand in your way to the eternal life with the Ents!&#x000A;&#x000A;You can see an Elixir of Courage, an Elixir of Peace, an Elixir of Inspiration, an ElvenKey and a Hole in the wood (closed) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-258"/>
+    </children>
+  </item>
+  <item nodeId="node-258">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">BlueForest&#x000A;You can find yourself in the Blue Forest where you see things of great value that can help you on your journey across the Cursed Forest. You can see a wooden desk with weapons that were forged in the eternal fires and cooled down in the freezing deeps of the northern sea! Maybe some friend can help you on your journey aswell?&#x000A;&#x000A;You can see a Gates of fortress, Archer, Wizard, Swordsman, a Grass (empty) and a Wooden desk (in which are Green staff and Black staff) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-259"/>
+    </children>
+  </item>
+  <item nodeId="node-259">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-260"/>
+    </children>
+  </item>
+  <item nodeId="node-260">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">OldElvenFortress&#x000A;Forgoten for ages, lost in the books, now only ruins remain of once great elven fortress. Mistery surrounds this place, ghost fly by you, but don't be scared, it's a peaceful place. Try to find something useful. It looks like there's still some weapons here that stood for ages and are stiill standing like the time stopped for them. Must be that Elves used some kind of magic on them. . . But be aware that while you look out for weapons you're enemies grow stronger!&#x000A;&#x000A;You can see a Gates of fortress, White arrow, Black arrow and Stone grave (in which are White sword and Green sword) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-261"/>
+    </children>
+  </item>
+  <item nodeId="node-261">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-262"/>
+    </children>
+  </item>
+  <item nodeId="node-262">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-263"/>
+    </children>
+  </item>
+  <item nodeId="node-263">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">BlueForest&#x000A;You can find yourself in the Blue Forest where you see things of great value that can help you on your journey across the Cursed Forest. You can see a wooden desk with weapons that were forged in the eternal fires and cooled down in the freezing deeps of the northern sea! Maybe some friend can help you on your journey aswell?&#x000A;&#x000A;You can see a Gates of fortress, Archer, Wizard, Swordsman, a Grass (empty) and a Wooden desk (in which are Green staff and Black staff) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-264"/>
+    </children>
+  </item>
+  <item nodeId="node-264">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">OldElvenFortress&#x000A;Forgoten for ages, lost in the books, now only ruins remain of once great elven fortress. Mistery surrounds this place, ghost fly by you, but don't be scared, it's a peaceful place. Try to find something useful. It looks like there's still some weapons here that stood for ages and are stiill standing like the time stopped for them. Must be that Elves used some kind of magic on them. . . But be aware that while you look out for weapons you're enemies grow stronger!&#x000A;&#x000A;You can see a Gates of fortress, White arrow, Black arrow and Stone grave (in which are White sword and Green sword) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-265"/>
+    </children>
+  </item>
+  <item nodeId="node-265">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">BlueForest&#x000A;You can find yourself in the Blue Forest where you see things of great value that can help you on your journey across the Cursed Forest. You can see a wooden desk with weapons that were forged in the eternal fires and cooled down in the freezing deeps of the northern sea! Maybe some friend can help you on your journey aswell?&#x000A;&#x000A;You can see a Gates of fortress, Archer, Wizard, Swordsman, a Grass (empty) and a Wooden desk (in which are Green staff and Black staff) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-266"/>
+    </children>
+  </item>
+  <item nodeId="node-266">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-267"/>
+    </children>
+  </item>
+  <item nodeId="node-267">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-268"/>
+    </children>
+  </item>
+  <item nodeId="node-268">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-269"/>
+    </children>
+  </item>
+  <item nodeId="node-269">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">GreenForest&#x000A;Oh you mighty warior, you are finding yourself in the Green Forest, the home of the cure, potions, and all the thing dear to a man to survive in this cruel and harsh world! Maybe you can find courage and power here to defeat the evil creatures that stand in your way to the eternal life with the Ents!&#x000A;&#x000A;You can see an Elixir of Courage, an Elixir of Peace, an Elixir of Inspiration, an ElvenKey and a Hole in the wood (closed) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-270"/>
+    </children>
+  </item>
+  <item nodeId="node-270">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">CursedForest&#x000A;Ground hasn't seen the ligh for ages, rivers stopped flowing and leaves mourn the life that was once here, but no more. Cursed is the place where you are. Be aware of going alone. Don't even try without right equipment. The Orcs on the branches fight until the end and guard the entrance of the forest. If you win the fight you will come across the Trolls that smash hard and fear no one! If you manage to get through all of that, only magic can save you becase Deamon from the deep, the almighty ghost that roams these forest is feared by all living things and no solid thing can hurt him!&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-271"/>
+    </children>
+  </item>
+  <item nodeId="node-271">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">EntForest&#x000A;You are in peace my friend. Congratulations!&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-17">
+    <command xml:space="preserve">take elixir</command>
+    <result xml:space="preserve">Which do you mean, the Elixir Of Curage or the Elixir Of Peace?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-18"/>
+      <child nodeId="node-22"/>
+    </children>
+  </item>
+  <item nodeId="node-18">
+    <command xml:space="preserve">inv</command>
+    <result xml:space="preserve">You are carrying:&#x000A;  an Elixir Of Curage&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-19"/>
+    </children>
+  </item>
+  <item nodeId="node-19">
+    <command xml:space="preserve">drop elixir</command>
+    <result xml:space="preserve">Dropped.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-20"/>
+    </children>
+  </item>
+  <item nodeId="node-20">
+    <command xml:space="preserve">take courage</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-21"/>
+    </children>
+  </item>
+  <item nodeId="node-21">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">BlueForest&#x000A;You can find yourself in the Blue Forest where you see things of great value that can help you on your journey across the Cursed Forest. You can see a desk with weapons that were forged in the eternal fires and cooled down in the freezing deeps of the northern sea!&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-22">
+    <command xml:space="preserve">elixir of peace</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-23">
+    <command xml:space="preserve">take elixir of power</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-24"/>
+    </children>
+  </item>
+  <item nodeId="node-24">
+    <command xml:space="preserve">inv</command>
+    <result xml:space="preserve">You are carrying:&#x000A;  an Elixir of Power&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-25"/>
+    </children>
+  </item>
+  <item nodeId="node-25">
+    <command xml:space="preserve">drop elixir</command>
+    <result xml:space="preserve">(the Elixir of Power)&#x000A;Dropped.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-26">
+    <command xml:space="preserve">look cabinet</command>
+    <result xml:space="preserve">Who knows what opening up the cabinet can bring you. Maybe happiness? Maybe power? Maybe just nothing? Oh well . . . &#x000A;&#x000A;In the Cabinet are an Elixir of Happiness and an Elixir of Power.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-27"/>
+    </children>
+  </item>
+  <item nodeId="node-27">
+    <command xml:space="preserve">open cabinet</command>
+    <result xml:space="preserve">You open the Cabinet.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-28"/>
+      <child nodeId="node-31"/>
+    </children>
+  </item>
+  <item nodeId="node-28">
+    <command xml:space="preserve">take elixir of power</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-29"/>
+    </children>
+  </item>
+  <item nodeId="node-29">
+    <command xml:space="preserve">take power</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-30"/>
+    </children>
+  </item>
+  <item nodeId="node-30">
+    <command xml:space="preserve">inv</command>
+    <result xml:space="preserve">You are carrying:&#x000A;  Power&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-31">
+    <command xml:space="preserve">take elixir</command>
+    <result xml:space="preserve">Which do you mean, the Elixir of Courage, the Elixir of Peace, the Elixir of Insiration, the Elixir of Happiness or the Elixir of Power?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-32"/>
+    </children>
+  </item>
+  <item nodeId="node-32">
+    <command xml:space="preserve">elixir of power</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-33"/>
+    </children>
+  </item>
+  <item nodeId="node-33">
+    <command xml:space="preserve">close cabinet</command>
+    <result xml:space="preserve">You close the Cabinet.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-34">
+    <command xml:space="preserve">open cage</command>
+    <result xml:space="preserve">You open the cage.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-35"/>
+    </children>
+  </item>
+  <item nodeId="node-35">
+    <command xml:space="preserve">close cage</command>
+    <result xml:space="preserve">You close the cage.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-36"/>
+    </children>
+  </item>
+  <item nodeId="node-36">
+    <command xml:space="preserve">look cage</command>
+    <result xml:space="preserve">In the cage is a lion.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-37"/>
+    </children>
+  </item>
+  <item nodeId="node-37">
+    <command xml:space="preserve">enter cage</command>
+    <result xml:space="preserve">You can't get into the closed cage.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-38"/>
+    </children>
+  </item>
+  <item nodeId="node-38">
+    <command xml:space="preserve">open cage</command>
+    <result xml:space="preserve">You open the cage.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-39"/>
+    </children>
+  </item>
+  <item nodeId="node-39">
+    <command xml:space="preserve">enter cage</command>
+    <result xml:space="preserve">You get into the cage.&#x000A;&#x000A;In the cage you can see a lion.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-40"/>
+    </children>
+  </item>
+  <item nodeId="node-40">
+    <command xml:space="preserve">get in the cage</command>
+    <result xml:space="preserve">But you're already in the cage.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-41"/>
+    </children>
+  </item>
+  <item nodeId="node-41">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You would have to get out of the cage first.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-42"/>
+    </children>
+  </item>
+  <item nodeId="node-42">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You would have to get out of the cage first.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-43"/>
+    </children>
+  </item>
+  <item nodeId="node-43">
+    <command xml:space="preserve">exit cage</command>
+    <result xml:space="preserve">I only understood you as far as wanting to exit.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-44"/>
+    </children>
+  </item>
+  <item nodeId="node-44">
+    <command xml:space="preserve">get out the cage</command>
+    <result xml:space="preserve">I only understood you as far as wanting to get outside.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-45"/>
+    </children>
+  </item>
+  <item nodeId="node-45">
+    <command xml:space="preserve">open cage</command>
+    <result xml:space="preserve">That's already open.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-46"/>
+    </children>
+  </item>
+  <item nodeId="node-46">
+    <command xml:space="preserve">close cage</command>
+    <result xml:space="preserve">You close the cage.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-47"/>
+    </children>
+  </item>
+  <item nodeId="node-47">
+    <command xml:space="preserve">exit cage</command>
+    <result xml:space="preserve">I only understood you as far as wanting to exit.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-48"/>
+    </children>
+  </item>
+  <item nodeId="node-48">
+    <command xml:space="preserve">enter cage</command>
+    <result xml:space="preserve">But you're already in the cage.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-49"/>
+    </children>
+  </item>
+  <item nodeId="node-49">
+    <command xml:space="preserve">transparent </command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-50"/>
+    </children>
+  </item>
+  <item nodeId="node-50">
+    <command xml:space="preserve">both</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-51"/>
+    </children>
+  </item>
+  <item nodeId="node-51">
+    <command xml:space="preserve">out</command>
+    <result xml:space="preserve">You can't get out of the closed cage.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-52"/>
+    </children>
+  </item>
+  <item nodeId="node-52">
+    <command xml:space="preserve">open cage</command>
+    <result xml:space="preserve">You open the cage.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-53"/>
+    </children>
+  </item>
+  <item nodeId="node-53">
+    <command xml:space="preserve">out</command>
+    <result xml:space="preserve">You get out of the cage.&#x000A;&#x000A;Center Ring&#x000A;You can see a cage (in which is a lion) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-54"/>
+    </children>
+  </item>
+  <item nodeId="node-54">
+    <command xml:space="preserve">close cage</command>
+    <result xml:space="preserve">You close the cage.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-55">
+    <command xml:space="preserve">enter</command>
+    <result xml:space="preserve">You can't get into the closed Cabinet.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-56"/>
+    </children>
+  </item>
+  <item nodeId="node-56">
+    <command xml:space="preserve">open</command>
+    <result xml:space="preserve">What do you want to open?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-57"/>
+    </children>
+  </item>
+  <item nodeId="node-57">
+    <command xml:space="preserve">open c</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-58"/>
+    </children>
+  </item>
+  <item nodeId="node-58">
+    <command xml:space="preserve">open cabinet</command>
+    <result xml:space="preserve">You open the Cabinet.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-59"/>
+    </children>
+  </item>
+  <item nodeId="node-59">
+    <command xml:space="preserve">enter</command>
+    <result xml:space="preserve">You get into the Cabinet.&#x000A;&#x000A;In the Cabinet you can see an Elixir of Happiness.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-60"/>
+    </children>
+  </item>
+  <item nodeId="node-60">
+    <command xml:space="preserve">take elixir</command>
+    <result xml:space="preserve">Which do you mean, the Elixir of Courage, the Elixir of Peace, the Elixir of Power, the Elixir of Insiration or the Elixir of Happiness?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-61"/>
+    </children>
+  </item>
+  <item nodeId="node-61">
+    <command xml:space="preserve">take elixir of happiness</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-62"/>
+    </children>
+  </item>
+  <item nodeId="node-62">
+    <command xml:space="preserve">out</command>
+    <result xml:space="preserve">You get out of the Cabinet.&#x000A;&#x000A;GreenForest&#x000A;Oh you mighty warior, you are finding yourself in the Green Forest, the home of the cure, potions, and all the thing dear to a man to survice in this cruel and harsh world!&#x000A;&#x000A;You can see an Elixir of Courage, an Elixir of Peace, an Elixir of Power, an Elixir of Insiration and the Cabinet (empty) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-63"/>
+    </children>
+  </item>
+  <item nodeId="node-63">
+    <command xml:space="preserve">drop elixir</command>
+    <result xml:space="preserve">(the Elixir of Happiness)&#x000A;Dropped.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-64"/>
+    </children>
+  </item>
+  <item nodeId="node-64">
+    <command xml:space="preserve">see</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-65"/>
+    </children>
+  </item>
+  <item nodeId="node-65">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">GreenForest&#x000A;Oh you mighty warior, you are finding yourself in the Green Forest, the home of the cure, potions, and all the thing dear to a man to survice in this cruel and harsh world!&#x000A;&#x000A;You can see an Elixir of Happiness, an Elixir of Courage, an Elixir of Peace, an Elixir of Power, an Elixir of Insiration and the Cabinet (empty) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-66">
+    <command xml:space="preserve">enter cabinet</command>
+    <result xml:space="preserve">That's not something you can enter.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-67"/>
+    </children>
+  </item>
+  <item nodeId="node-67">
+    <command xml:space="preserve">enter</command>
+    <result xml:space="preserve">You must supply a noun.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-68"/>
+    </children>
+  </item>
+  <item nodeId="node-68">
+    <command xml:space="preserve">open</command>
+    <result xml:space="preserve">What do you want to open?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-69"/>
+    </children>
+  </item>
+  <item nodeId="node-69">
+    <command xml:space="preserve">open cabinet</command>
+    <result xml:space="preserve">You open the Cabinet.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-70"/>
+    </children>
+  </item>
+  <item nodeId="node-70">
+    <command xml:space="preserve">enter cabinet</command>
+    <result xml:space="preserve">That's not something you can enter.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-71"/>
+    </children>
+  </item>
+  <item nodeId="node-71">
+    <command xml:space="preserve">close cabinet</command>
+    <result xml:space="preserve">You close the Cabinet.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-72"/>
+    </children>
+  </item>
+  <item nodeId="node-72">
+    <command xml:space="preserve">look cabinet</command>
+    <result xml:space="preserve">In the Cabinet is an Elixir of Happiness.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-73"/>
+    </children>
+  </item>
+  <item nodeId="node-73">
+    <command xml:space="preserve">take elixir of happiness</command>
+    <result xml:space="preserve">The Cabinet isn't open.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-74"/>
+    </children>
+  </item>
+  <item nodeId="node-74">
+    <command xml:space="preserve">open cabinet</command>
+    <result xml:space="preserve">You open the Cabinet.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-75"/>
+    </children>
+  </item>
+  <item nodeId="node-75">
+    <command xml:space="preserve">take elixir of happiness</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-76">
+    <command xml:space="preserve">open hole</command>
+    <result xml:space="preserve">It seems to be locked.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-77"/>
+      <child nodeId="node-78"/>
+      <child nodeId="node-80"/>
+    </children>
+  </item>
+  <item nodeId="node-77">
+    <command xml:space="preserve">take elixir of power</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-78">
+    <command xml:space="preserve">unlock hole</command>
+    <result xml:space="preserve">What do you want to unlock the Hole in the wood with?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-79"/>
+    </children>
+  </item>
+  <item nodeId="node-79">
+    <command xml:space="preserve">unlock hole with key</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-80">
+    <command xml:space="preserve">take key</command>
+    <result xml:space="preserve">Maybe some ancient people forgot about it. Must be to unlock something. It looks kinda elvish!&#x000A;&#x000A;Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-81"/>
+    </children>
+  </item>
+  <item nodeId="node-81">
+    <command xml:space="preserve">unlock hole</command>
+    <result xml:space="preserve">(with the Key)&#x000A;You unlock the Hole in the wood.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-82"/>
+    </children>
+  </item>
+  <item nodeId="node-82">
+    <command xml:space="preserve">open hole</command>
+    <result xml:space="preserve">You open the Hole in the wood, revealing an Elixir of Happiness and an Elixir of Power.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-83">
+    <command xml:space="preserve">take ElvvenKey</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-84"/>
+    </children>
+  </item>
+  <item nodeId="node-84">
+    <command xml:space="preserve">take ElvenKey</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-85"/>
+    </children>
+  </item>
+  <item nodeId="node-85">
+    <command xml:space="preserve">unlock hole with elvenkey</command>
+    <result xml:space="preserve">You unlock the Hole in the wood.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-86"/>
+    </children>
+  </item>
+  <item nodeId="node-86">
+    <command xml:space="preserve">lock hole</command>
+    <result xml:space="preserve">(with the ElvenKey)&#x000A;You lock the Hole in the wood.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-87"/>
+    </children>
+  </item>
+  <item nodeId="node-87">
+    <command xml:space="preserve">unlock hole </command>
+    <result xml:space="preserve">(with the ElvenKey)&#x000A;You unlock the Hole in the wood.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-88"/>
+    </children>
+  </item>
+  <item nodeId="node-88">
+    <command xml:space="preserve">take elixir of powe</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-89"/>
+    </children>
+  </item>
+  <item nodeId="node-89">
+    <command xml:space="preserve">take elixir of power</command>
+    <result xml:space="preserve">The Hole in the wood isn't open.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-90"/>
+    </children>
+  </item>
+  <item nodeId="node-90">
+    <command xml:space="preserve">open hole</command>
+    <result xml:space="preserve">You open the Hole in the wood.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-91"/>
+    </children>
+  </item>
+  <item nodeId="node-91">
+    <command xml:space="preserve">take elixir of power</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-92">
+    <command xml:space="preserve">take key</command>
+    <result xml:space="preserve">Maybe some ancient people forgot about it. Must be to unlock something. It looks kinda elvish!&#x000A;&#x000A;Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-93"/>
+      <child nodeId="node-123"/>
+    </children>
+  </item>
+  <item nodeId="node-93">
+    <command xml:space="preserve">unlock hole</command>
+    <result xml:space="preserve">(with the Key)&#x000A;You unlock the Hole in the wood.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-94"/>
+      <child nodeId="node-96"/>
+      <child nodeId="node-103"/>
+    </children>
+  </item>
+  <item nodeId="node-94">
+    <command xml:space="preserve">open </command>
+    <result xml:space="preserve">(the Key)&#x000A;It isn't something you can open.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-95"/>
+    </children>
+  </item>
+  <item nodeId="node-95">
+    <command xml:space="preserve">open hole</command>
+    <result xml:space="preserve">You open the Hole in the wood.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-96">
+    <command xml:space="preserve">look hole</command>
+    <result xml:space="preserve">Strange hole in the ground. Who knows what opening up the hole in the wood can bring you or where it could take you. Maybe it contains happiness? Maybe power? Maybe just nothing? Oh well . . . &#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-97"/>
+      <child nodeId="node-100"/>
+    </children>
+  </item>
+  <item nodeId="node-97">
+    <command xml:space="preserve">see hole</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-98"/>
+    </children>
+  </item>
+  <item nodeId="node-98">
+    <command xml:space="preserve">enter hole</command>
+    <result xml:space="preserve">That's not something you can enter.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-99"/>
+    </children>
+  </item>
+  <item nodeId="node-99">
+    <command xml:space="preserve">open hole</command>
+    <result xml:space="preserve">You open the Hole in the wood, revealing an Elixir of Happiness and an Elixir of Power.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-100">
+    <command xml:space="preserve">take elixir of happiness</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-101"/>
+    </children>
+  </item>
+  <item nodeId="node-101">
+    <command xml:space="preserve">open hole</command>
+    <result xml:space="preserve">You open the Hole in the wood, revealing an Elixir of Happiness and an Elixir of Power.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-102"/>
+    </children>
+  </item>
+  <item nodeId="node-102">
+    <command xml:space="preserve">take elixir of happiness</command>
+    <result xml:space="preserve">BlueForest&#x000A;You can find yourself in the Blue Forest where you see things of great value that can help you on your journey across the Cursed Forest. You can see a desk with weapons that were forged in the eternal fires and cooled down in the freezing deeps of the northern sea!&#x000A;&#x000A;Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-103">
+    <command xml:space="preserve">open hole</command>
+    <result xml:space="preserve">You open the Hole in the wood, revealing an Elixir of Happiness and an Elixir of Power.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-104"/>
+      <child nodeId="node-108"/>
+      <child nodeId="node-115"/>
+    </children>
+  </item>
+  <item nodeId="node-104">
+    <command xml:space="preserve">take elixir of hapiness</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-105"/>
+    </children>
+  </item>
+  <item nodeId="node-105">
+    <command xml:space="preserve">take Elixir of happiness</command>
+    <result xml:space="preserve">BlueForest&#x000A;You can find yourself in the Blue Forest where you see things of great value that can help you on your journey across the Cursed Forest. You can see a desk with weapons that were forged in the eternal fires and cooled down in the freezing deeps of the northern sea!&#x000A;&#x000A;Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-106"/>
+    </children>
+  </item>
+  <item nodeId="node-106">
+    <command xml:space="preserve">look PlayerMove</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-107"/>
+    </children>
+  </item>
+  <item nodeId="node-107">
+    <command xml:space="preserve">PlayerMove</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-108">
+    <command xml:space="preserve">take elixir of happiness</command>
+    <result xml:space="preserve">HappyValley&#x000A;Okay you are happy for now. But what about eternal happiness with the Ents? You must want that. Get back to the woods and find a away to defeat the evil creatures! You can go west to get back to the Green forest&#x000A;&#x000A;Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-109"/>
+    </children>
+  </item>
+  <item nodeId="node-109">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">GreenForest&#x000A;Oh you mighty warior, you are finding yourself in the Green Forest, the home of the cure, potions, and all the thing dear to a man to survive in this cruel and harsh world! Maybe you can find courage and power here to defeat the evil creatures that stand in your way to the eternal life with the Ents!&#x000A;&#x000A;You can see an Elixir of Courage, an Elixir of Peace and a Hole in the wood (in which is an Elixir of Power) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-110"/>
+    </children>
+  </item>
+  <item nodeId="node-110">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">HappyValley&#x000A;Okay you are happy for now. But what about eternal happiness with the Ents? You must want that. Get back to the woods and find a away to defeat the evil creatures! You can go west to get back to the Green forest&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-111"/>
+    </children>
+  </item>
+  <item nodeId="node-111">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">GreenForest&#x000A;Oh you mighty warior, you are finding yourself in the Green Forest, the home of the cure, potions, and all the thing dear to a man to survive in this cruel and harsh world! Maybe you can find courage and power here to defeat the evil creatures that stand in your way to the eternal life with the Ents!&#x000A;&#x000A;You can see an Elixir of Courage, an Elixir of Peace and a Hole in the wood (in which is an Elixir of Power) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-112"/>
+    </children>
+  </item>
+  <item nodeId="node-112">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">BlueForest&#x000A;You can find yourself in the Blue Forest where you see things of great value that can help you on your journey across the Cursed Forest. You can see a desk with weapons that were forged in the eternal fires and cooled down in the freezing deeps of the northern sea!&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-113"/>
+    </children>
+  </item>
+  <item nodeId="node-113">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">GreenForest&#x000A;Oh you mighty warior, you are finding yourself in the Green Forest, the home of the cure, potions, and all the thing dear to a man to survive in this cruel and harsh world! Maybe you can find courage and power here to defeat the evil creatures that stand in your way to the eternal life with the Ents!&#x000A;&#x000A;You can see an Elixir of Courage, an Elixir of Peace and a Hole in the wood (in which is an Elixir of Power) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-114"/>
+    </children>
+  </item>
+  <item nodeId="node-114">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">HappyValley&#x000A;Okay you are happy for now. But what about eternal happiness with the Ents? You must want that. Get back to the woods and find a away to defeat the evil creatures! You can go west to get back to the Green forest&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-115">
+    <command xml:space="preserve">close hole</command>
+    <result xml:space="preserve">You close the Hole in the wood.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-116"/>
+    </children>
+  </item>
+  <item nodeId="node-116">
+    <command xml:space="preserve">open hole in the wood</command>
+    <result xml:space="preserve">You open the Hole in the wood, revealing an Elixir of Happiness and an Elixir of Power.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-117"/>
+    </children>
+  </item>
+  <item nodeId="node-117">
+    <command xml:space="preserve">look hole</command>
+    <result xml:space="preserve">That looks like a strange hole . . .&#x000A;&#x000A;In the Hole in the wood are an Elixir of Happiness and an Elixir of Power.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-118"/>
+    </children>
+  </item>
+  <item nodeId="node-118">
+    <command xml:space="preserve">open hole</command>
+    <result xml:space="preserve">That's already open.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-119"/>
+    </children>
+  </item>
+  <item nodeId="node-119">
+    <command xml:space="preserve">close hole</command>
+    <result xml:space="preserve">You close the Hole in the wood.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-120"/>
+    </children>
+  </item>
+  <item nodeId="node-120">
+    <command xml:space="preserve">open hole</command>
+    <result xml:space="preserve">You open the Hole in the wood, revealing an Elixir of Happiness and an Elixir of Power.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-121"/>
+    </children>
+  </item>
+  <item nodeId="node-121">
+    <command xml:space="preserve">close hole</command>
+    <result xml:space="preserve">You close the Hole in the wood.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-122"/>
+    </children>
+  </item>
+  <item nodeId="node-122">
+    <command xml:space="preserve">open hole</command>
+    <result xml:space="preserve">You open the Hole in the wood, revealing an Elixir of Happiness and an Elixir of Power.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-123">
+    <command xml:space="preserve">drop key</command>
+    <result xml:space="preserve">Dropped.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-124"/>
+    </children>
+  </item>
+  <item nodeId="node-124">
+    <command xml:space="preserve">take key</command>
+    <result xml:space="preserve">Maybe some ancient people forgot about it. Must be to unlock something. It looks kinda elvish!&#x000A;&#x000A;Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-125">
+    <command xml:space="preserve">look container</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-126"/>
+    </children>
+  </item>
+  <item nodeId="node-126">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">GreenForest&#x000A;Oh you mighty warior, you are finding yourself in the Green Forest, the home of the cure, potions, and all the thing dear to a man to survice in this cruel and harsh world!&#x000A;&#x000A;Hmm . . . There is some key on the ground? Maybe some ancient people forgot about it. Must be to unlock something. It looks kinda elvish!&#x000A;&#x000A;You can also see an Elixir of Courage and an Elixir of Peace here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-127">
+    <command xml:space="preserve">look hole</command>
+    <result xml:space="preserve">Strange hole in the ground. Who knows what opening up the hole in the wood can bring you. Maybe happiness? Maybe power? Maybe just nothing? Oh well . . . &#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-128"/>
+      <child nodeId="node-144"/>
+    </children>
+  </item>
+  <item nodeId="node-128">
+    <command xml:space="preserve">look hole in the ground</command>
+    <result xml:space="preserve">I only understood you as far as wanting to look the Hole in the wood.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-129"/>
+    </children>
+  </item>
+  <item nodeId="node-129">
+    <command xml:space="preserve">look hole in the wood</command>
+    <result xml:space="preserve">You see nothing special about the Hole in the wood.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-130"/>
+    </children>
+  </item>
+  <item nodeId="node-130">
+    <command xml:space="preserve">open hole</command>
+    <result xml:space="preserve">It seems to be locked.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-131"/>
+    </children>
+  </item>
+  <item nodeId="node-131">
+    <command xml:space="preserve">unlock hole</command>
+    <result xml:space="preserve">What do you want to unlock the Hole in the wood with?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-132"/>
+    </children>
+  </item>
+  <item nodeId="node-132">
+    <command xml:space="preserve">pick key</command>
+    <result xml:space="preserve">I didn't understand that sentence.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-133"/>
+    </children>
+  </item>
+  <item nodeId="node-133">
+    <command xml:space="preserve">tak key</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-134"/>
+    </children>
+  </item>
+  <item nodeId="node-134">
+    <command xml:space="preserve">take key</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-135"/>
+    </children>
+  </item>
+  <item nodeId="node-135">
+    <command xml:space="preserve">inv</command>
+    <result xml:space="preserve">You are carrying:&#x000A;  a Key&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-136"/>
+    </children>
+  </item>
+  <item nodeId="node-136">
+    <command xml:space="preserve">unlock hole</command>
+    <result xml:space="preserve">(with the Key)&#x000A;You unlock the Hole in the wood.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-137"/>
+    </children>
+  </item>
+  <item nodeId="node-137">
+    <command xml:space="preserve">open hole</command>
+    <result xml:space="preserve">You open the Hole in the wood, revealing an Elixir of Happiness and an Elixir of Power.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-138"/>
+    </children>
+  </item>
+  <item nodeId="node-138">
+    <command xml:space="preserve">take elixir</command>
+    <result xml:space="preserve">Which do you mean, the Elixir of Courage, the Elixir of Peace, the Elixir of Happiness or the Elixir of Power?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-139"/>
+    </children>
+  </item>
+  <item nodeId="node-139">
+    <command xml:space="preserve">elixir of power</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-140"/>
+    </children>
+  </item>
+  <item nodeId="node-140">
+    <command xml:space="preserve">close hole</command>
+    <result xml:space="preserve">You close the Hole in the wood.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-141"/>
+    </children>
+  </item>
+  <item nodeId="node-141">
+    <command xml:space="preserve">inv</command>
+    <result xml:space="preserve">You are carrying:&#x000A;  an Elixir of Power&#x000A;  a Key&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-142"/>
+    </children>
+  </item>
+  <item nodeId="node-142">
+    <command xml:space="preserve">drop key</command>
+    <result xml:space="preserve">Dropped.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-143"/>
+    </children>
+  </item>
+  <item nodeId="node-143">
+    <command xml:space="preserve">inv</command>
+    <result xml:space="preserve">You are carrying:&#x000A;  an Elixir of Power&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-144">
+    <command xml:space="preserve">hole</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-145"/>
+    </children>
+  </item>
+  <item nodeId="node-145">
+    <command xml:space="preserve">lookup hole</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-146"/>
+    </children>
+  </item>
+  <item nodeId="node-146">
+    <command xml:space="preserve">look up hole</command>
+    <result xml:space="preserve">I only understood you as far as wanting to look up.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-147"/>
+    </children>
+  </item>
+  <item nodeId="node-147">
+    <command xml:space="preserve">desc hole</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-148"/>
+    </children>
+  </item>
+  <item nodeId="node-148">
+    <command xml:space="preserve">description of hole</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-149"/>
+    </children>
+  </item>
+  <item nodeId="node-149">
+    <command xml:space="preserve">what is hole</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-150"/>
+    </children>
+  </item>
+  <item nodeId="node-150">
+    <command xml:space="preserve">what hole</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-151"/>
+    </children>
+  </item>
+  <item nodeId="node-151">
+    <command xml:space="preserve">see hole</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-152"/>
+    </children>
+  </item>
+  <item nodeId="node-152">
+    <command xml:space="preserve">enter hole</command>
+    <result xml:space="preserve">That's not something you can enter.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-153"/>
+    </children>
+  </item>
+  <item nodeId="node-153">
+    <command xml:space="preserve">open hole</command>
+    <result xml:space="preserve">It seems to be locked.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-154"/>
+    </children>
+  </item>
+  <item nodeId="node-154">
+    <command xml:space="preserve">take key</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-155"/>
+    </children>
+  </item>
+  <item nodeId="node-155">
+    <command xml:space="preserve">unlock hole</command>
+    <result xml:space="preserve">(with the Key)&#x000A;You unlock the Hole in the wood.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-156"/>
+    </children>
+  </item>
+  <item nodeId="node-156">
+    <command xml:space="preserve">look hole</command>
+    <result xml:space="preserve">You see nothing special about the Hole in the wood.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-157">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">CursedForest&#x000A;Ground hasn't seen the ligh for ages, rivers stopped flowing and leaves mourn the life that was once here, but no more. Cursed is the place where you are. Be aware of going alone. Don't even try without right equipment. The Orcs on the branches fight until the end and guard the entrance of the forest. If you win the fight you will come across the Trolls that smash hard and fear no one! If you manage to get through all of that, only magic can save you becase Deamon from the deep, the almighty ghost that roams these forest is feared by all living things and no solid thing can hurt him!&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-158"/>
+    </children>
+  </item>
+  <item nodeId="node-158">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">GreenForest&#x000A;Oh you mighty warior, you are finding yourself in the Green Forest, the home of the cure, potions, and all the thing dear to a man to survive in this cruel and harsh world! Maybe you can find courage and power here to defeat the evil creatures that stand in your way to the eternal life with the Ents!&#x000A;&#x000A;You can see an Elixir of Courage, an Elixir of Peace, an Elixir of Inspiration, an ElvenKey and a Hole in the wood (closed) here.&#x000A;&#x000A;You will lose your life, don't risk it. Find the right items my friend!&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-159"/>
+      <child nodeId="node-272"/>
+    </children>
+  </item>
+  <item nodeId="node-159">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">GreenForest&#x000A;Oh you mighty warior, you are finding yourself in the Green Forest, the home of the cure, potions, and all the thing dear to a man to survive in this cruel and harsh world! Maybe you can find courage and power here to defeat the evil creatures that stand in your way to the eternal life with the Ents!&#x000A;&#x000A;Hmm . . . There is some key on the ground? Maybe some ancient people forgot about it. Must be to unlock something. It looks kinda elvish!&#x000A;&#x000A;You can also see an Elixir of Courage, an Elixir of Peace and a Hole in the wood (closed) here.&#x000A;&#x000A;You're not happy&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-160"/>
+    </children>
+  </item>
+  <item nodeId="node-160">
+    <command xml:space="preserve">take key</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-161"/>
+    </children>
+  </item>
+  <item nodeId="node-161">
+    <command xml:space="preserve">unlock hole</command>
+    <result xml:space="preserve">(with the Key)&#x000A;You unlock the Hole in the wood.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-162"/>
+    </children>
+  </item>
+  <item nodeId="node-162">
+    <command xml:space="preserve">open hole</command>
+    <result xml:space="preserve">You open the Hole in the wood, revealing an Elixir of Happiness and an Elixir of Power.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-163"/>
+    </children>
+  </item>
+  <item nodeId="node-163">
+    <command xml:space="preserve">take elixir of happiness</command>
+    <result xml:space="preserve">HappyValley&#x000A;Okay you are happy for now. But what about eternal happiness with the Ents? You must want that. Get back to the woods and find a away to defeat the evil creatures! You can go west to get back to the Green forest&#x000A;&#x000A;Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-164"/>
+    </children>
+  </item>
+  <item nodeId="node-164">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">GreenForest&#x000A;Oh you mighty warior, you are finding yourself in the Green Forest, the home of the cure, potions, and all the thing dear to a man to survive in this cruel and harsh world! Maybe you can find courage and power here to defeat the evil creatures that stand in your way to the eternal life with the Ents!&#x000A;&#x000A;You can see an Elixir of Courage, an Elixir of Peace and a Hole in the wood (in which is an Elixir of Power) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-165"/>
+    </children>
+  </item>
+  <item nodeId="node-165">
+    <command xml:space="preserve">close hole</command>
+    <result xml:space="preserve">You close the Hole in the wood.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-166"/>
+    </children>
+  </item>
+  <item nodeId="node-166">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">GreenForest&#x000A;Oh you mighty warior, you are finding yourself in the Green Forest, the home of the cure, potions, and all the thing dear to a man to survive in this cruel and harsh world! Maybe you can find courage and power here to defeat the evil creatures that stand in your way to the eternal life with the Ents!&#x000A;&#x000A;You can see an Elixir of Courage, an Elixir of Peace and a Hole in the wood (closed) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-167"/>
+    </children>
+  </item>
+  <item nodeId="node-167">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">HappyValley&#x000A;Okay you are happy for now. But what about eternal happiness with the Ents? You must want that. Get back to the woods and find a away to defeat the evil creatures! You can go west to get back to the Green forest&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-168"/>
+    </children>
+  </item>
+  <item nodeId="node-168">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-169"/>
+    </children>
+  </item>
+  <item nodeId="node-169">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-170"/>
+    </children>
+  </item>
+  <item nodeId="node-170">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">GreenForest&#x000A;Oh you mighty warior, you are finding yourself in the Green Forest, the home of the cure, potions, and all the thing dear to a man to survive in this cruel and harsh world! Maybe you can find courage and power here to defeat the evil creatures that stand in your way to the eternal life with the Ents!&#x000A;&#x000A;You can see an Elixir of Courage, an Elixir of Peace and a Hole in the wood (closed) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-272">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-273"/>
+    </children>
+  </item>
+  <item nodeId="node-273">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">GreenForest&#x000A;Oh you mighty warior, you are finding yourself in the Green Forest, the home of the cure, potions, and all the thing dear to a man to survive in this cruel and harsh world! Maybe you can find courage and power here to defeat the evil creatures that stand in your way to the eternal life with the Ents!&#x000A;&#x000A;You can see an Elixir of Courage, an Elixir of Peace, an Elixir of Inspiration, an ElvenKey and a Hole in the wood (closed) here.&#x000A;&#x000A;You're not happy, you can't go north yet, or maybe you don't need to go at all?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-274"/>
+    </children>
+  </item>
+  <item nodeId="node-274">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">GreenForest&#x000A;Oh you mighty warior, you are finding yourself in the Green Forest, the home of the cure, potions, and all the thing dear to a man to survive in this cruel and harsh world! Maybe you can find courage and power here to defeat the evil creatures that stand in your way to the eternal life with the Ents!&#x000A;&#x000A;You can see an Elixir of Courage, an Elixir of Peace, an Elixir of Inspiration, an ElvenKey and a Hole in the wood (closed) here.&#x000A;&#x000A;You're not happy, you can't go north yet, or maybe you don't need to go at all?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-275"/>
+    </children>
+  </item>
+  <item nodeId="node-275">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">BlueForest&#x000A;You can find yourself in the Blue Forest where you see things of great value that can help you on your journey across the Cursed Forest. You can see a wooden desk with weapons that were forged in the eternal fires and cooled down in the freezing deeps of the northern sea! Maybe some friend can help you on your journey aswell?&#x000A;&#x000A;You can see a Gates of fortress, Archer, Wizard, Swordsman, a Grass (closed) and a Wooden desk (closed) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-276"/>
+    </children>
+  </item>
+  <item nodeId="node-276">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">GreenForest&#x000A;Oh you mighty warior, you are finding yourself in the Green Forest, the home of the cure, potions, and all the thing dear to a man to survive in this cruel and harsh world! Maybe you can find courage and power here to defeat the evil creatures that stand in your way to the eternal life with the Ents!&#x000A;&#x000A;You can see an Elixir of Courage, an Elixir of Peace, an Elixir of Inspiration, an ElvenKey and a Hole in the wood (closed) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-277"/>
+    </children>
+  </item>
+  <item nodeId="node-277">
+    <command xml:space="preserve">take elixir of courage</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-278"/>
+    </children>
+  </item>
+  <item nodeId="node-278">
+    <command xml:space="preserve">take Elven</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-279"/>
+    </children>
+  </item>
+  <item nodeId="node-279">
+    <command xml:space="preserve">take ElvenKey</command>
+    <result xml:space="preserve">Maybe some ancient people forgot about it. Must be to unlock something. It looks kinda elvish!&#x000A;&#x000A;Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-280"/>
+    </children>
+  </item>
+  <item nodeId="node-280">
+    <command xml:space="preserve">unlock Hole</command>
+    <result xml:space="preserve">What do you want to unlock the Hole in the wood with?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-281"/>
+    </children>
+  </item>
+  <item nodeId="node-281">
+    <command xml:space="preserve">unlock Hole with ElvenKey</command>
+    <result xml:space="preserve">You unlock the Hole in the wood.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-282"/>
+    </children>
+  </item>
+  <item nodeId="node-282">
+    <command xml:space="preserve">open hole</command>
+    <result xml:space="preserve">You open the Hole in the wood, revealing an Elixir of Happiness and an Elixir of Power.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-283"/>
+    </children>
+  </item>
+  <item nodeId="node-283">
+    <command xml:space="preserve">take power</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-284"/>
+    </children>
+  </item>
+  <item nodeId="node-284">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">GreenForest&#x000A;Oh you mighty warior, you are finding yourself in the Green Forest, the home of the cure, potions, and all the thing dear to a man to survive in this cruel and harsh world! Maybe you can find courage and power here to defeat the evil creatures that stand in your way to the eternal life with the Ents!&#x000A;&#x000A;You can see an Elixir of Peace, an Elixir of Inspiration and a Hole in the wood (in which is an Elixir of Happiness) here.&#x000A;&#x000A;You're not happy, you can't go north yet, or maybe you don't need to go at all?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-285"/>
+    </children>
+  </item>
+  <item nodeId="node-285">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">BlueForest&#x000A;You can find yourself in the Blue Forest where you see things of great value that can help you on your journey across the Cursed Forest. You can see a wooden desk with weapons that were forged in the eternal fires and cooled down in the freezing deeps of the northern sea! Maybe some friend can help you on your journey aswell?&#x000A;&#x000A;You can see a Gates of fortress, Archer, Wizard, Swordsman, a Grass (closed) and a Wooden desk (closed) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-286"/>
+    </children>
+  </item>
+  <item nodeId="node-286">
+    <command xml:space="preserve">open grass</command>
+    <result xml:space="preserve">You open the Grass, revealing a GrassKey.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-287"/>
+    </children>
+  </item>
+  <item nodeId="node-287">
+    <command xml:space="preserve">take GrassKey</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-288"/>
+    </children>
+  </item>
+  <item nodeId="node-288">
+    <command xml:space="preserve">unlock Wooden deks</command>
+    <result xml:space="preserve">I didn't understand that sentence.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-289"/>
+    </children>
+  </item>
+  <item nodeId="node-289">
+    <command xml:space="preserve">unlock Wooden desk</command>
+    <result xml:space="preserve">What do you want to unlock the Wooden desk with?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-290"/>
+    </children>
+  </item>
+  <item nodeId="node-290">
+    <command xml:space="preserve">unlock Wooden desk with GrassKey</command>
+    <result xml:space="preserve">You unlock the Wooden desk.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-291"/>
+    </children>
+  </item>
+  <item nodeId="node-291">
+    <command xml:space="preserve">unlock Wooden desk</command>
+    <result xml:space="preserve">What do you want to unlock the Wooden desk with?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-292"/>
+    </children>
+  </item>
+  <item nodeId="node-292">
+    <command xml:space="preserve">open desk</command>
+    <result xml:space="preserve">You open the Wooden desk, revealing White staff, Green staff and Black staff.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-293"/>
+    </children>
+  </item>
+  <item nodeId="node-293">
+    <command xml:space="preserve">take White staff</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-294"/>
+    </children>
+  </item>
+  <item nodeId="node-294">
+    <command xml:space="preserve">open gates</command>
+    <result xml:space="preserve">You open the Gates of fortress.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-295"/>
+    </children>
+  </item>
+  <item nodeId="node-295">
+    <command xml:space="preserve">go gates</command>
+    <result xml:space="preserve">OldElvenFortress&#x000A;Forgoten for ages, lost in the books, now only ruins remain of once great elven fortress. Mistery surrounds this place, ghost fly by you, but don't be scared, it's a peaceful place. Try to find something useful. It looks like there's still some weapons here that stood for ages and are stiill standing like the time stopped for them. Must be that Elves used some kind of magic on them. . . But be aware that while you look out for weapons you're enemies grow stronger!&#x000A;&#x000A;You can see a Gates of fortress, White arrow, Green arrow, Black arrow and Stone grave (closed) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-296"/>
+    </children>
+  </item>
+  <item nodeId="node-296">
+    <command xml:space="preserve">take green arrow</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-297"/>
+    </children>
+  </item>
+  <item nodeId="node-297">
+    <command xml:space="preserve">open stone grave</command>
+    <result xml:space="preserve">You open Stone grave, revealing White sword, Green sword and Black sword.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-298"/>
+    </children>
+  </item>
+  <item nodeId="node-298">
+    <command xml:space="preserve">take black sword</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-299"/>
+    </children>
+  </item>
+  <item nodeId="node-299">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-300"/>
+    </children>
+  </item>
+  <item nodeId="node-300">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-301"/>
+    </children>
+  </item>
+  <item nodeId="node-301">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-302"/>
+    </children>
+  </item>
+  <item nodeId="node-302">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">BlueForest&#x000A;You can find yourself in the Blue Forest where you see things of great value that can help you on your journey across the Cursed Forest. You can see a wooden desk with weapons that were forged in the eternal fires and cooled down in the freezing deeps of the northern sea! Maybe some friend can help you on your journey aswell?&#x000A;&#x000A;You can see a Gates of fortress, Archer, Wizard, Swordsman, a Grass (empty) and a Wooden desk (in which are Green staff and Black staff) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-303"/>
+    </children>
+  </item>
+  <item nodeId="node-303">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-304"/>
+    </children>
+  </item>
+  <item nodeId="node-304">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-305"/>
+    </children>
+  </item>
+  <item nodeId="node-305">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">GreenForest&#x000A;Oh you mighty warior, you are finding yourself in the Green Forest, the home of the cure, potions, and all the thing dear to a man to survive in this cruel and harsh world! Maybe you can find courage and power here to defeat the evil creatures that stand in your way to the eternal life with the Ents!&#x000A;&#x000A;You can see an Elixir of Peace, an Elixir of Inspiration and a Hole in the wood (in which is an Elixir of Happiness) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-306"/>
+    </children>
+  </item>
+  <item nodeId="node-306">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">CursedForest&#x000A;Ground hasn't seen the ligh for ages, rivers stopped flowing and leaves mourn the life that was once here, but no more. Cursed is the place where you are. Be aware of going alone. Don't even try without right equipment. The Orcs on the branches fight until the end and guard the entrance of the forest. If you win the fight you will come across the Trolls that smash hard and fear no one! If you manage to get through all of that, only magic can save you becase Deamon from the deep, the almighty ghost that roams these forest is feared by all living things and no solid thing can hurt him!&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-307"/>
+    </children>
+  </item>
+  <item nodeId="node-307">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">EntForest&#x000A;You are in peace my friend. Congratulations!&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-171">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">GreenForest&#x000A;Oh you mighty warior, you are finding yourself in the Green Forest, the home of the cure, potions, and all the thing dear to a man to survive in this cruel and harsh world! Maybe you can find courage and power here to defeat the evil creatures that stand in your way to the eternal life with the Ents!&#x000A;&#x000A;Hmm . . . There is some key on the ground? Maybe some ancient people forgot about it. Must be to unlock something. It looks kinda elvish!&#x000A;&#x000A;You can also see an Elixir of Courage, an Elixir of Peace and a Hole in the wood (closed) here.&#x000A;&#x000A;You're not happy, you can't go east yet&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-172"/>
+    </children>
+  </item>
+  <item nodeId="node-172">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">BlueForest&#x000A;You can find yourself in the Blue Forest where you see things of great value that can help you on your journey across the Cursed Forest. You can see a desk with weapons that were forged in the eternal fires and cooled down in the freezing deeps of the northern sea!&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-173"/>
+    </children>
+  </item>
+  <item nodeId="node-173">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">GreenForest&#x000A;Oh you mighty warior, you are finding yourself in the Green Forest, the home of the cure, potions, and all the thing dear to a man to survive in this cruel and harsh world! Maybe you can find courage and power here to defeat the evil creatures that stand in your way to the eternal life with the Ents!&#x000A;&#x000A;Hmm . . . There is some key on the ground? Maybe some ancient people forgot about it. Must be to unlock something. It looks kinda elvish!&#x000A;&#x000A;You can also see an Elixir of Courage, an Elixir of Peace and a Hole in the wood (closed) here.&#x000A;&#x000A;You're not happy, you can't go east yet&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+</Skein>
