@@ -1,5 +1,14 @@
 "EntForest" by Bruno
 
+Release along with the "Quixe" interpreter.
+
+Release along with cover art ("Trees cover").
+
+When play begins:
+	say "You're a brave warrior stranded in this forsaken land where nothing is as it was before. Find a way through the Cursed forest, but be aware, you need weapons and friends, you can't do this alone!"
+
+The display banner rule is listed before the when play begins stage rule in the startup rules.
+
 [Mapping - showing the map of story on commands "map" and "look at map"]
 
 Figure of EntForest is the file "map.png".
@@ -102,6 +111,7 @@ HasStaff is a truth state that varies. HasStaff is false.
 HasPower is a truth state that varies. HasPower is false. 
 
 HasCourage is a truth state that varies. HasCourage is false. 
+
 
 [Green Forest part]
  

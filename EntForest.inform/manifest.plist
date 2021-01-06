@@ -4,6 +4,8 @@
     <dict>
         <key>Graphics</key>
         <dict>
+            <key>1</key>
+            <string>F:\FOI\7_semestar\DP\projekt\inform7--interactive-fiction-game\EntForest.materials\Cover.png</string>
             <key>3</key>
             <string>Figures\map.png</string>
         </dict>
